@@ -1,15 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
 </head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<div class="container">
+
+<header>
+   <h1>About Me</h1>
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="#">Bio</a></li>
+    <li><a href="#">Work Experience</a></li>
+    <li><a href="#">Hobbies</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+<article>
+  <h1>Bio</h1>
+  <p>I am a boring person.</p>
+  <p>Please don't talk to me, I prefer being antisocial. (Also, I'll fill in this section later lol)</p>
+</article>
+
+<article>
+  <h1>Work Experience</h1>
+  <p>I gained experience in coding at the Intuit SF Bay Area Girls Who Code program.</p>
+  <p>I can't cook.</p>
+  <p>etc etc</p>
+</article>
+
+<article>
+  <h1>Hobbies</h1>
+  <p>I enjoy wushu (Chinese martial arts). Here's a picture of me (not):</p>
+  <img src="https://i.vimeocdn.com/portrait/58832_300x300" alt="test" style="width:300px;height:300px;">
+  <p>I like to eat many different kinds of food, and I enjoy trying new things.</p>
+  <p>etc etc</p>
+</article>
+
+<article>
+  <h1>Contact</h1>
+  <p>You can email me at: <a href="url">cindywang.222@gmail.com</a></p>
+  <p>My name on Facebook is Cindy Wang, and a link to my profile is here: <a href="url">https://www.facebook.com/profile.php?id=100003034916455</a></p>
+  <p>idk just talk to me</p>
+</article>
+
+<footer>Find me at <u>cindywang.222@gmail.com</u></footer>
+
+</div>
 
 </body>
 </html>
+
 
 <!-- 
 See website at: https://cindywang222.github.io/Portfolio/aboutme.html
